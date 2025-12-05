@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="680.0" prefWidth="1210.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.meysboutique.InicioController">
+   <children>
+      <Pane layoutY="118.0" prefHeight="634.0" prefWidth="254.0" style="-fx-background-color: #232946; -fx-background-radius: 0 10 0 0;" AnchorPane.bottomAnchor="0.0">
+         <children>
+            <Button fx:id="hola" alignment="BASELINE_LEFT" layoutY="14.0" mnemonicParsing="false" onAction="#usuariosOpen" prefHeight="67.0" prefWidth="254.0" style="-fx-background-color: transparent; -fx-border-style: none; -fx-border-width: 0px;" text="Usuarios" textFill="WHITE">
+               <padding>
+                  <Insets left="100.0" />
+               </padding>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <ImageView fitHeight="56.0" fitWidth="37.0" layoutX="45.0" layoutY="29.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@img/administrador.png" />
+               </image>
+            </ImageView>
+            <Button fx:id="btnCompras" alignment="BASELINE_LEFT" layoutY="81.0" mnemonicParsing="false" onAction="#comprasOpen" prefHeight="67.0" prefWidth="254.0" style="-fx-background-color: transparent; -fx-border-style: none; -fx-border-width: 0px;" text="Compras" textFill="WHITE">
+               <padding>
+                  <Insets left="100.0" />
+               </padding>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <ImageView fitHeight="56.0" fitWidth="37.0" layoutX="45.0" layoutY="96.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@img/bolsas-de-papel.png" />
+               </image>
+            </ImageView>
+            <Button fx:id="btnCerrar" alignment="BASELINE_LEFT" layoutY="567.0" mnemonicParsing="false" onAction="#cerrarSesion" prefHeight="67.0" prefWidth="254.0" style="-fx-background-color: transparent; -fx-border-style: none; -fx-border-width: 0px;" text="Cerrar sesión" textFill="WHITE">
+               <padding>
+                  <Insets left="100.0" />
+               </padding>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <ImageView fitHeight="56.0" fitWidth="37.0" layoutX="45.0" layoutY="582.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@img/cerrar-sesion.png" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+      <!-- <Pane layoutX="82.0" layoutY="14.0" prefHeight="40.0" prefWidth="40.0" style="-fx-background-color: #b8c1ec; -fx-border-radius: 50%; -fx-background-radius: 50%;">
+         <children>
+            <ImageView fitHeight="30.0" fitWidth="22.0" layoutX="20.0" layoutY="20.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@img/usuario-de-perfil.png" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane> -->
+      <ImageView fitHeight="181.0" fitWidth="155.0" layoutX="1041.0" layoutY="3.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@img/logo_rosa.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="614.0" layoutY="51.0" text="Mey's Boutique" textFill="#232946">
+         <font>
+            <Font name="Lucida Calligraphy Italic" size="50.0" />
+         </font>
+      </Label>
+      <Pane layoutX="306.0" layoutY="238.0" prefHeight="190.0" prefWidth="409.0" style="-fx-background-color: #b8c1ec; -fx-border-radius: 10px; -fx-background-radius: 10px;">
+         <children>
+            <Button fx:id="btnProveedores" alignment="BASELINE_LEFT" mnemonicParsing="false" onAction="#proveedoresOpen" prefHeight="190.0" prefWidth="409.0" style="-fx-background-color: transparent; -fx-background-radius: 10px; -fx-border-radius: 10px;" text="Proveedores">
+               <padding>
+                  <Insets left="20.0" />
+               </padding>
+               <font>
+                  <Font name="Lucida Calligraphy Italic" size="36.0" />
+               </font>
+            </Button>
+            <ImageView fitHeight="109.0" fitWidth="112.0" layoutX="287.0" layoutY="67.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@img/camion-de-reparto.png" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+      <Pane layoutX="306.0" layoutY="468.0" prefHeight="190.0" prefWidth="409.0" style="-fx-background-color: #b8c1ec; -fx-border-radius: 10px; -fx-background-radius: 10px;">
+         <children>
+            <Button fx:id="btnProductos" alignment="BASELINE_LEFT" mnemonicParsing="false" onAction="#productosOpen" prefHeight="190.0" prefWidth="409.0" style="-fx-background-color: transparent;" text="Productos">
+               <padding>
+                  <Insets left="20.0" />
+               </padding>
+               <font>
+                  <Font name="Lucida Calligraphy Italic" size="36.0" />
+               </font>
+            </Button>
+            <ImageView fitHeight="109.0" fitWidth="112.0" layoutX="287.0" layoutY="67.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@img/caja.png" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+      <Pane layoutX="754.0" layoutY="238.0" prefHeight="190.0" prefWidth="409.0" style="-fx-background-color: #b8c1ec; -fx-border-radius: 10px; -fx-background-radius: 10px;">
+         <children>
+            <Button fx:id="btnClientes" alignment="BASELINE_LEFT" mnemonicParsing="false" onAction="#clientesOpen" prefHeight="190.0" prefWidth="409.0" style="-fx-background-color: transparent;" text="Clientes">
+               <padding>
+                  <Insets left="20.0" />
+               </padding>
+               <font>
+                  <Font name="Lucida Calligraphy Italic" size="36.0" />
+               </font>
+            </Button>
+            <ImageView fitHeight="109.0" fitWidth="112.0" layoutX="287.0" layoutY="67.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@img/bolso-de-la-tienda.png" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+      <Pane layoutX="754.0" layoutY="468.0" prefHeight="190.0" prefWidth="409.0" style="-fx-background-color: #b8c1ec; -fx-border-radius: 10px; -fx-background-radius: 10px;">
+         <children>
+            <Button fx:id="btnVentas" alignment="BASELINE_LEFT" mnemonicParsing="false" onAction="#ventasOpen" prefHeight="190.0" prefWidth="409.0" style="-fx-background-color: transparent;" text="Ventas">
+               <padding>
+                  <Insets left="20.0" />
+               </padding>
+               <font>
+                  <Font name="Lucida Calligraphy Italic" size="36.0" />
+               </font>
+            </Button>
+            <ImageView fitHeight="109.0" fitWidth="112.0" layoutX="287.0" layoutY="67.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@img/carrito-de-compras.png" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

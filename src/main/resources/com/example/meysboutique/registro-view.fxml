@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="602.0" prefWidth="931.0" style="-fx-background-color: #232946;" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.meysboutique.ResgistroController">
+   <children>
+      <Pane prefHeight="602.0" prefWidth="494.0" style="-fx-background-color: #eebbc3;">
+         <children>
+            <ImageView fitHeight="466.0" fitWidth="410.0" layoutX="42.0" layoutY="42.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@img/logo_rosa.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="71.0" layoutY="470.0" text="Mey's Boutique" textFill="WHITE">
+               <font>
+                  <Font name="Lucida Calligraphy Italic" size="43.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <Label layoutX="674.0" layoutY="14.0" text="Registro" textFill="WHITE">
+         <font>
+            <Font name="System Bold Italic" size="31.0" />
+         </font></Label>
+      <TextField fx:id="primerNombreUsuario" focusTraversable="false" layoutX="532.0" layoutY="97.0" prefHeight="38.0" prefWidth="114.0" promptText="Primer nombre" style="-fx-border-radius: 10px; -fx-border-color: ef86c1; -fx-background-radius: 10px;" AnchorPane.topAnchor="97.0" />
+      <Label layoutX="540.0" layoutY="72.0" text="Nombres" textFill="WHITE" AnchorPane.leftAnchor="540.0" />
+      <TextField fx:id="primerApellidoUsuario" focusTraversable="false" layoutX="532.0" layoutY="172.0" prefHeight="38.0" prefWidth="114.0" promptText="Primer apellido" style="-fx-background-radius: 10px; -fx-border-radius: 10px; -fx-border-color: ef86c1;" />
+      <Label layoutX="540.0" layoutY="146.0" text="Apellidos" textFill="WHITE" />
+      <TextField fx:id="correoUsuario" focusTraversable="false" layoutX="684.0" layoutY="246.0" prefHeight="38.0" prefWidth="206.0" promptText="ejemplo@gmail.com" style="-fx-border-radius: 10px; -fx-background-radius: 10px; -fx-border-color: ef86c1;" AnchorPane.rightAnchor="41.0" />
+      <Label layoutX="690.0" layoutY="221.0" text="Correo electronico" textFill="WHITE" />
+      <Label layoutX="540.0" layoutY="372.0" text="Contraseña" textFill="WHITE" />
+      <DatePicker fx:id="fechaUsuario" focusTraversable="false" layoutX="532.0" layoutY="324.0" prefHeight="38.0" prefWidth="142.0" promptText="DD/MM/YYYY" style="-fx-border-color: ef86c1;" AnchorPane.rightAnchor="257.0" />
+      <Label layoutX="540.0" layoutY="296.0" text="Fecha de nacimiento" textFill="WHITE" AnchorPane.leftAnchor="540.0" />
+      <Label layoutX="543.0" layoutY="446.0" text="Confirmar contraseña" textFill="WHITE" />
+      <Button layoutX="577.0" layoutY="537.0" mnemonicParsing="false" onAction="#btnRegistroAcceder" prefHeight="38.0" prefWidth="130.0" style="-fx-background-color: #eebbc3; -fx-border-radius: 50px; -fx-background-radius: 50px;" text="Registrarse" textFill="#232946" />
+      <PasswordField fx:id="contraseñaUsuario" layoutX="532.0" layoutY="397.0" prefHeight="38.0" prefWidth="358.0" promptText="Cree una contraseña segura" style="-fx-background-radius: 10; -fx-border-radius: 10; -fx-border-color: ef86c1;" AnchorPane.rightAnchor="41.0" />
+      <PasswordField fx:id="confirmarUsuario" layoutX="532.0" layoutY="470.0" prefHeight="38.0" prefWidth="358.0" promptText="Confirme su contraseña" style="-fx-background-radius: 10; -fx-border-radius: 10; -fx-border-color: ef86c1;" />
+      <TextField fx:id="segundoNombreUsuario" focusTraversable="false" layoutX="654.0" layoutY="97.0" prefHeight="38.0" prefWidth="114.0" promptText="Segundo nombre" style="-fx-border-radius: 10px; -fx-border-color: ef86c1; -fx-background-radius: 10px;" />
+      <TextField fx:id="tercerNombreUsuario" focusTraversable="false" layoutX="777.0" layoutY="97.0" prefHeight="38.0" prefWidth="114.0" promptText="Tercer nombre" style="-fx-border-radius: 10px; -fx-border-color: ef86c1; -fx-background-radius: 10px;" />
+      <TextField fx:id="segundoApellidoUsuario" focusTraversable="false" layoutX="654.0" layoutY="172.0" prefHeight="38.0" prefWidth="114.0" promptText="Segundo apellido" style="-fx-background-radius: 10px; -fx-border-radius: 10px; -fx-border-color: ef86c1;" />
+      <TextField fx:id="apellidoConyugalUsuario" focusTraversable="false" layoutX="777.0" layoutY="172.0" prefHeight="38.0" prefWidth="114.0" promptText="Apellido conyugal" style="-fx-background-radius: 10px; -fx-border-radius: 10px; -fx-border-color: ef86c1;" />
+      <Label layoutX="540.0" layoutY="221.0" text="Telefono" textFill="WHITE" />
+      <TextField fx:id="telefonoUsuario" focusTraversable="false" layoutX="532.0" layoutY="246.0" prefHeight="38.0" prefWidth="142.0" promptText="0000-0000" style="-fx-background-radius: 10px; -fx-border-radius: 10px; -fx-border-color: ef86c1;" />
+      <ImageView fitHeight="57.0" fitWidth="50.0" layoutX="621.0" layoutY="12.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@img/registerIcon.gif" />
+         </image>
+      </ImageView>
+      <Button fx:id="cancelarRegisterButton" layoutX="713.0" layoutY="537.0" mnemonicParsing="false" onAction="#cancelarRegisterAcction" prefHeight="38.0" prefWidth="130.0" style="-fx-background-color: #eebbc3; -fx-border-radius: 50px; -fx-background-radius: 50px;" text="Cancelar" textFill="#232946" />
+      <Label layoutX="689.0" layoutY="296.0" text="Dirección" textFill="WHITE" />
+      <ComboBox fx:id="direccionUsuario" layoutX="684.0" layoutY="324.0" prefHeight="38.0" prefWidth="206.0" promptText="Seleccione su municipio" />
+   </children>
+</AnchorPane>
