@@ -27,6 +27,10 @@ La aplicación facilita registrar compras, actualizar stock, manejar transaccion
   <img width="1199" height="705" alt="Products" src="https://github.com/user-attachments/assets/e86002eb-a5fc-451d-a9d9-844e732d14e7" />
   <img width="1202" height="703" alt="providers" src="https://github.com/user-attachments/assets/e2df637d-f57d-4d10-9ca9-4e9a1639c019" />
 
+- Gestión y reportes pdf sobre los clientes
+  <img width="1202" height="703" alt="image" src="https://github.com/user-attachments/assets/39fd7480-cbf7-4a2d-b945-49e7216b4792" />
+  <img width="1219" height="626" alt="image" src="https://github.com/user-attachments/assets/6f65d5e3-69b7-4fab-bd52-1ee5a3be69d1" />
+
 - Registro de ventas.
   <img width="1201" height="704" alt="sales" src="https://github.com/user-attachments/assets/cf609219-2ac1-4083-ac07-3af1a8cbbcf4" />
 
