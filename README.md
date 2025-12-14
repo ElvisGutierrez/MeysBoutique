@@ -13,27 +13,58 @@ La aplicación facilita registrar compras, actualizar stock, manejar transaccion
 
 
 ## Funcionalidades principales  
-- Control de usuarios y sesión.
-  <img width="923" height="622" alt="register" src="https://github.com/user-attachments/assets/8f42afbd-f7b0-4e9c-a581-75af09a6a38b" />
-  <img width="463" height="705" alt="login" src="https://github.com/user-attachments/assets/d68fa924-8beb-4905-a2cd-88e16b42a4a0" />
 
-- Interfaz gráfica amigable (JavaFX).
-  <img width="1205" height="701" alt="inicio" src="https://github.com/user-attachments/assets/24f706ea-0a86-4941-bd18-2639b5653007" />
-  
-- Registro, actualización y eliminación de compras.
-    <img width="1201" height="704" alt="sales" src="https://github.com/user-attachments/assets/5d2df851-e7df-4db9-a5a5-a581fd6e1652" />
+### Control de usuarios y sesión
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/8f42afbd-f7b0-4e9c-a581-75af09a6a38b" width="700"/>
+</div>
 
-- Gestión de productos, proveedores, usuarios y transacciones.
-  <img width="1199" height="705" alt="Products" src="https://github.com/user-attachments/assets/e86002eb-a5fc-451d-a9d9-844e732d14e7" />
-  <img width="1202" height="703" alt="providers" src="https://github.com/user-attachments/assets/e2df637d-f57d-4d10-9ca9-4e9a1639c019" />
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/d68fa924-8beb-4905-a2cd-88e16b42a4a0" width="700"/>
+</div>
 
-- Gestión y reportes pdf sobre los clientes
-  <img width="1202" height="703" alt="image" src="https://github.com/user-attachments/assets/39fd7480-cbf7-4a2d-b945-49e7216b4792" />
-  <img width="1219" height="626" alt="image" src="https://github.com/user-attachments/assets/6f65d5e3-69b7-4fab-bd52-1ee5a3be69d1" />
+---
 
-- Registro de ventas.
-  <img width="1201" height="704" alt="sales" src="https://github.com/user-attachments/assets/cf609219-2ac1-4083-ac07-3af1a8cbbcf4" />
+### Interfaz gráfica amigable (JavaFX)
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/24f706ea-0a86-4941-bd18-2639b5653007" width="700"/>
+</div>
 
+---
+
+### Registro, actualización y eliminación de compras
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/5d2df851-e7df-4db9-a5a5-a581fd6e1652" width="700"/>
+</div>
+
+---
+
+### Gestión de productos, proveedores, usuarios y transacciones
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/e86002eb-a5fc-451d-a9d9-844e732d14e7" width="700"/>
+</div>
+
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/e2df637d-f57d-4d10-9ca9-4e9a1639c019" width="700"/>
+</div>
+
+---
+
+### Gestión y reportes PDF de clientes
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/39fd7480-cbf7-4a2d-b945-49e7216b4792" width="700"/>
+</div>
+
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/6f65d5e3-69b7-4fab-bd52-1ee5a3be69d1" width="700"/>
+</div>
+
+---
+
+### Registro de ventas
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/cf609219-2ac1-4083-ac07-3af1a8cbbcf4" width="700"/>
+</div>
 
 ## Requisitos
 
