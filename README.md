@@ -1,6 +1,5 @@
-# Mey's Boutique
+# Mey's Boutique - Sistema de ventas
 
-## ¿Qué es Mey’s Boutique?  
 Mey’s Boutique es una aplicación de escritorio desarrollada en Java (JavaFX + MySQL) que permite gestionar una tienda de ropa — incluyendo compras, proveedores, transacciones, productos, clientes y usuarios.  
 La aplicación facilita registrar compras, actualizar stock, manejar transacciones, proveedores y reportes, ideal para pequeñas y medianas tiendas.
 
